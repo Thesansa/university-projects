@@ -1,0 +1,138 @@
+body{
+    background: #ffffff;
+    margin: 10px;
+
+}
+
+/*.login-box{
+    background-color: #F2EFE7;
+    border-radius: 20px;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    width: fit-content;
+
+}*/
+
+.register{
+    display: flex;
+    background-color: #64afff;
+    padding: 20px;
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 10px;
+    width: fit-content;
+    margin: auto;
+    justify-content: center;
+    width:fit-content;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.7);
+}
+
+#hregister{
+    color: #000;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 0 0 10px 0;
+}
+
+.label{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.input{
+    border: 2px solid #007bff;
+    background-color:#ffffff;
+    padding: 7px;
+    border-radius: 7px;
+    box-shadow: inset 0 4px 6px rgba(0,0,0,0.3);
+    width:80%;
+    margin: auto;
+}
+
+.input:focus{
+    outline:none;
+    background-color: #fff;
+    border: 2px solid #007bff;
+    box-shadow: 0 6px 8px rgba(0,0,0,0.5);
+    transition: all 20ms ease;
+}
+
+#registerbtn{
+    background-color: #007bff;
+    border: none;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 50%;
+    box-shadow: inset 0 6px 8px rgba(0,0,0,0.4);
+    transition: ease 0.3s all;
+}
+
+#registerbtn:hover{
+    transform:scale(1.1);
+    box-shadow:0 4px 8px rgba(0,0,0,0.6); ;
+}
+
+#loginnow{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000;
+}
+
+#loglink{
+    text-decoration: none;
+    color: #fff;
+    transition: ease 0.3s;
+
+}
+
+#loglink:hover{
+    text-decoration: underline;
+
+}
+
+#correctp, #wrongp {
+    display: none;
+    border-radius: 7px;
+    color: #ffffff;
+    padding: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    box-shadow: 0 6px 8px rgba(0,0,0,0.4);
+    position: absolute;
+    white-space: nowrap; 
+    transform: translate(10px, 10px); 
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+#wrongp{
+    background-color:rgba(109, 15, 15, 0.6) ;
+}
+
+#correctp{
+    background-color:rgba(15, 109, 40, 0.6) ;
+}
+
+.error{
+    border-radius: 7px;
+    color: #ffffff;
+    padding: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    box-shadow: 0 6px 8px rgba(0,0,0,0.4);
+    background-color:rgba(109, 15, 15, 0.6) ;
+
+}
+

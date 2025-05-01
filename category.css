@@ -1,0 +1,18 @@
+.categ,.row{
+    border: 2px solid rgb(0, 123, 255);
+    padding: 25px 15px 7px 15px;
+    border-radius: 15px;
+}
+
+.cat-head{
+    color:#64afff;
+}
+
+.h3{
+    margin:0 0px 15px -10px;
+}
+
+.card{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
